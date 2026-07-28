@@ -1,0 +1,48 @@
+print("=======================================")
+print("welcome to ride builder!")
+print("=======================================")
+print()
+print("step1: pick up your vechicle")
+print("1-bike")
+print("2-car")
+print()
+choice=int(input("enter 1 or 2:"))
+print()
+if choice==1:
+    print("step2:pick your bike type")
+    print("1-scooty")
+    print("2-mountain bike")
+    print()
+    bike_type=int(input("enter 1 or 2:"))
+    print()
+    if bike_type==1:
+        print("your picked:scooty")
+        print("top speed:80km/hr")
+        print("best for:city road")
+    else:
+        print("your picked:mountain bike")
+        print("top speed:40km/hr")
+        print("best for:road trails")
+elif choice==2:
+    print("step 2:pick your car type")
+    print("1-sedan")
+    print("2-SUV")
+    print()
+    car_type=int(input("enter 1 or 2:"))
+    if car_type==1:
+        print("your picked:sedan")
+        print("seats:5 passengers")
+        print("best for:family trips")
+    else:
+        print("your picked:SUV")
+        print("seats:7 passengers")
+        print("best for:off-road adventures")
+else:
+    print("that was not a valid choice")
+    print("please enter 1 for bikke or 2 for car")
+print()
+print("===================================")
+print("your custom ride is ready")
+print("enjoy your planning")
+print("==================================")
+
